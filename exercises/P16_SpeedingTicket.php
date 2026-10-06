@@ -6,7 +6,10 @@ class P16_SpeedingTicket {
         $speed = 121;
 
         // Check if the speed exceeds the limit
+        if($speed>120){
+            $max = "Speeding ticket!" . "\n";
+        } 
         // Write your code here
-        
+        echo $max;
     }
 }

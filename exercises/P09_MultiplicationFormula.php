@@ -7,6 +7,9 @@ class P09_MultiplicationFormula {
         $numB = 4;
 
         // Output the formula and result
+        $mult = $numA*$numB;
+        $formula= $numA . " x " . $numB . " = " . $mult;
         // Write the program here
+        echo $formula."\n";
     }
 }

@@ -7,6 +7,9 @@ class P10_DivisionFormula {
         $numB = 4;
 
         // Output the formula and result
+        $div = $numA/$numB;
+        $formula= $numA . " / " . $numB . " = " . $div;
         // Write the program here
+        echo $formula."\n";
     }
 }
